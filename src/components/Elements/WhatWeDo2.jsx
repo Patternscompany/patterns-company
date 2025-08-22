@@ -29,10 +29,10 @@ class WhatWeDo2 extends React.Component {
 
                         {/* Image Below Heading */}
                         <div className="section-content text-center">
-                            <img 
-                                src={whatWeDoImg} 
-                                alt="What We Do" 
-                                style={{ maxWidth: "100%", borderRadius: "12px" }} 
+                            <img
+                                src={whatWeDoImg}
+                                alt="What We Do"
+                                style={{ maxWidth: "100%", borderRadius: "12px" }}
                             />
                         </div>
                     </div>
