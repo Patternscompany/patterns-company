@@ -39,12 +39,10 @@ class Navigation extends React.Component {
                         <NavLink to={""}>Services</NavLink>
                         <ul className="sub-menu">
                             <li>
-                                <NavLink to={""}>Services</NavLink>
-                                <ul className="sub-menu">
-                                    <li><NavLink to={"/services-1"}>Services 1</NavLink></li>
-                                    <li><NavLink to={"/services-2"}>Services 2</NavLink></li>
-                                    <li><NavLink to={"/services-detail"}>Service Detail</NavLink></li>
-                                </ul>
+                                <NavLink to={"/services-1"}>Web Developemnt</NavLink>
+                                <NavLink to={"/services-2"}>App Development</NavLink>
+                                <NavLink to={"/services-detail"}>SMM (Social Media Maerketing)</NavLink>
+                              
                             </li>
                             
                         </ul>
